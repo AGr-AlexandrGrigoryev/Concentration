@@ -10,7 +10,6 @@
 **Application: Concentration Game.
 Stanford University Course.
 This project from "CS193P IOS APPLICATION DEVELOPMENT course at Stanford University**
-![Group 21](https://user-images.githubusercontent.com/37674802/118481861-40d71b00-b714-11eb-804d-b9b1aad57c8d.png)
 
 - Builded with Swift and Xcode. Interface was written in code, without StoryBoards, Used AutoLayout, StackView, UIButtons, and UILabels, UIImageView, to create an interface, and how to react to touch events in an app using ViewController and multiple views.
 Used architecture is MVC.
