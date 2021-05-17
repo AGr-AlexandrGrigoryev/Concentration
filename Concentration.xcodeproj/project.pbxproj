@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6972AEC524E57B86000BAABB /* Concentration .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6972AEC424E57B86000BAABB /* Concentration .swift */; };
+		6972AEC724E57C54000BAABB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6972AEC624E57C54000BAABB /* Card.swift */; };
+		6976423D24F19C33004E219E /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6976423C24F19C32004E219E /* Label.swift */; };
+		6976423F24F2B230004E219E /* ExtentionVC + StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6976423E24F2B230004E219E /* ExtentionVC + StackView.swift */; };
+		697A238324E2AA2300E8D193 /* ExtentionUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A238224E2AA2300E8D193 /* ExtentionUIButton.swift */; };
 		69CC9DAC24DEDE8200B7263A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CC9DAB24DEDE8200B7263A /* AppDelegate.swift */; };
 		69CC9DAE24DEDE8200B7263A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CC9DAD24DEDE8200B7263A /* SceneDelegate.swift */; };
 		69CC9DB024DEDE8200B7263A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CC9DAF24DEDE8200B7263A /* ViewController.swift */; };
-		69CC9DB324DEDE8200B7263A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CC9DB124DEDE8200B7263A /* Main.storyboard */; };
 		69CC9DB524DEDE8500B7263A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CC9DB424DEDE8500B7263A /* Assets.xcassets */; };
 		69CC9DB824DEDE8500B7263A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CC9DB624DEDE8500B7263A /* LaunchScreen.storyboard */; };
+		69CC9DC124DEE15100B7263A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CC9DC024DEE15100B7263A /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6972AEC424E57B86000BAABB /* Concentration .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Concentration .swift"; sourceTree = "<group>"; };
+		6972AEC624E57C54000BAABB /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6976423C24F19C32004E219E /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		6976423E24F2B230004E219E /* ExtentionVC + StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtentionVC + StackView.swift"; sourceTree = "<group>"; };
+		697A238224E2AA2300E8D193 /* ExtentionUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionUIButton.swift; sourceTree = "<group>"; };
 		69CC9DA824DEDE8200B7263A /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CC9DAB24DEDE8200B7263A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69CC9DAD24DEDE8200B7263A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		69CC9DAF24DEDE8200B7263A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		69CC9DB224DEDE8200B7263A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69CC9DB424DEDE8500B7263A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69CC9DB724DEDE8500B7263A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69CC9DB924DEDE8500B7263A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CC9DC024DEE15100B7263A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6932722824E57AA10082A751 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6972AEC424E57B86000BAABB /* Concentration .swift */,
+				6972AEC624E57C54000BAABB /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6932722924E57AAD0082A751 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				69CC9DAF24DEDE8200B7263A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6976423B24F19C20004E219E /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				6976423C24F19C32004E219E /* Label.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
 		69CC9D9F24DEDE8200B7263A = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +91,35 @@
 		69CC9DAA24DEDE8200B7263A /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				6932722824E57AA10082A751 /* Model */,
+				69F6A4D324E57A31001E8EC7 /* View */,
+				6932722924E57AAD0082A751 /* Controller */,
 				69CC9DAB24DEDE8200B7263A /* AppDelegate.swift */,
 				69CC9DAD24DEDE8200B7263A /* SceneDelegate.swift */,
-				69CC9DAF24DEDE8200B7263A /* ViewController.swift */,
-				69CC9DB124DEDE8200B7263A /* Main.storyboard */,
 				69CC9DB424DEDE8500B7263A /* Assets.xcassets */,
 				69CC9DB624DEDE8500B7263A /* LaunchScreen.storyboard */,
 				69CC9DB924DEDE8500B7263A /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		69CC9DBF24DEE11A00B7263A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				69CC9DC024DEE15100B7263A /* CustomButton.swift */,
+				697A238224E2AA2300E8D193 /* ExtentionUIButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		69F6A4D324E57A31001E8EC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6976423B24F19C20004E219E /* Label */,
+				69CC9DBF24DEE11A00B7263A /* Buttons */,
+				6976423E24F2B230004E219E /* ExtentionVC + StackView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +181,6 @@
 			files = (
 				69CC9DB824DEDE8500B7263A /* LaunchScreen.storyboard in Resources */,
 				69CC9DB524DEDE8500B7263A /* Assets.xcassets in Resources */,
-				69CC9DB324DEDE8200B7263A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CC9DC124DEE15100B7263A /* CustomButton.swift in Sources */,
+				697A238324E2AA2300E8D193 /* ExtentionUIButton.swift in Sources */,
+				6972AEC724E57C54000BAABB /* Card.swift in Sources */,
+				6972AEC524E57B86000BAABB /* Concentration .swift in Sources */,
+				6976423F24F2B230004E219E /* ExtentionVC + StackView.swift in Sources */,
 				69CC9DB024DEDE8200B7263A /* ViewController.swift in Sources */,
 				69CC9DAC24DEDE8200B7263A /* AppDelegate.swift in Sources */,
+				6976423D24F19C33004E219E /* Label.swift in Sources */,
 				69CC9DAE24DEDE8200B7263A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +206,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		69CC9DB124DEDE8200B7263A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69CC9DB224DEDE8200B7263A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		69CC9DB624DEDE8500B7263A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,14 +341,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7T54RQ9S76;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = home.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = home.ConcentrationHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,14 +361,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7T54RQ9S76;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = home.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = home.ConcentrationHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
